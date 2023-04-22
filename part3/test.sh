@@ -1,4 +1,4 @@
-source ../../env.sh
+source ../env.sh
 "../start.sh"
 /usr/local/hadoop/bin/hdfs dfs -rm -r /part3/input/
 /usr/local/hadoop/bin/hdfs dfs -rm -r /part3/output
