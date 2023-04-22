@@ -1,9 +1,9 @@
-source ../../env.sh
+source ../env.sh
 ../start.sh
 /usr/local/hadoop/bin/hdfs dfs -rm -r /part3/input/
 /usr/local/hadoop/bin/hdfs dfs -rm -r /part3/output
 /usr/local/hadoop/bin/hdfs dfs -mkdir -p /part3/input/
-/usr/local/hadoop/bin/hdfs dfs -copyFromLocal nyc_parking_violations_data.csv /part3/input/
+/usr/local/hadoop/bin/hdfs dfs -copyFromLocal ../lab2_data/nyc_parking_violations_data.csv /part3/input/
 
 
 echo "--------------------------- Parallelism 2---------------------------" 
@@ -18,6 +18,7 @@ echo "--------------------------- Parallelism 5---------------------------"
 /usr/local/hadoop/bin/hdfs dfs -rm -r /part3/input/
 /usr/local/hadoop/bin/hdfs dfs -rm -r /part3/output/
 ../stop.sh
+
 
 
 
