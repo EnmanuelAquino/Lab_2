@@ -43,6 +43,6 @@ The data used in this analysis was obtained from the NYC Open Data website, whic
 To run this code, first you need to install Spark environment, in our case we used 3 node cluster hosted on Google Cloud. Make sure if you're going to use a different CSV file, stored it in the  corresponding directory or change the part1.sh file to reference the new directory.
 
 #### Findings
--4PM is the time at which more tickets are issued.
+- 4PM is the time at which more tickets are issued.
 
 ---
