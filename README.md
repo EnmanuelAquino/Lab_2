@@ -23,26 +23,26 @@ To run this code, first you need to install Spark environment, in our case we us
 
 This repository contains 2 scripts and one csv file to answer the question in hand related to the probability that it will get a ticket, given a Black vehicle parking illegally at 34510, 10030, 34050, 25390 and 22040 street codes.
 
-## Data
+#### Data
 The data used in this analysis was obtained from the NYC Open Data website, which can be accessed here: https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2023/pvqr-7yc4
 
-## Usage
+#### Usage
 To run this code, first you need to install Spark environment, in our case we used 3 node cluster hosted on Google Cloud. Make sure if you're going to use a different CSV file, stored it in the  corresponding directory or change the part1.sh file to reference the new directory.
 
-##Findings
+#### Findings
 •	3.85% is the probability of getting a ticket.
 ---
 
-### NYC Parking and Tickets (Part 3)
+## NYC Parking and Tickets (Part 3)
 This repository contains 2 scripts and one csv file to answer the question in hand related to hours that are more likely to get a ticket.
 
-## Data
+#### Data
 The data used in this analysis was obtained from the NYC Open Data website, which can be accessed here: https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2023/pvqr-7yc4
 
-## Usage
+#### Usage
 To run this code, first you need to install Spark environment, in our case we used 3 node cluster hosted on Google Cloud. Make sure if you're going to use a different CSV file, stored it in the  corresponding directory or change the part1.sh file to reference the new directory.
 
-## Findings
+#### Findings
 •	4PM is the time at which more tickets are issued.
 
 ---
